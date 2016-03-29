@@ -1,0 +1,25 @@
+{
+  "name": "Genoise",
+  "version": "0.1.0",
+  "summary": "A short description of Genoise.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/Genoise",
+  "license": "MIT",
+  "authors": {
+    "alariju": "albin.arias16@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/Genoise.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "Genoise": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
