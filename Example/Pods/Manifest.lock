@@ -1,5 +1,5 @@
 PODS:
-  - Genoise (0.1.0)
+  - Genoise (1.0.0)
   - Nimble (3.2.0)
   - Quick (0.9.1)
 
@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Genoise: 45c55a6b438396e8e8b6227865df790810707f02
+  Genoise: 8eef5700f832f46460a5054f9222dfdf5033a17e
   Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
   Quick: a5221fc21788b6aeda934805e68b061839bc3165
 

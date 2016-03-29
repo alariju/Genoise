@@ -16,7 +16,7 @@ class GenoiseSpec: QuickSpec {
     override func spec() {
         describe("Private methods tests") {
             it("Can get local app version") {
-                expect(Brownie.getLocalAppVersion()) == "1.0"
+                expect(Genoise.getLocalAppVersion()) == "1.0"
             }
             it("Can get app URL") {
                 Genoise.initializeWithApplicationId("12341234")
@@ -35,7 +35,7 @@ class GenoiseSpec: QuickSpec {
                 expect(Genoise.getAppURL()) == "https://itunes.apple.com/lookup?id=tyuityui"
             }
             it("Can get store URL") {
-                Brownie.initializeWithApplicationId("12341234")
+                Genoise.initializeWithApplicationId("12341234")
                 expect(Genoise.getStoreURL()) == "https://itunes.apple.com/US/app/id12341234?mt=8"
             }
 //            it("Can get an array of ints") {

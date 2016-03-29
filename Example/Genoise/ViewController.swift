@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import Genoise
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        Genoise.initializeWithApplicationId("1052352392")
+        Genoise.isOutdated { (isOutdated, text) in
+            if isOutdated {
+                print("Is Outdated!")
+                print(text)
+            } else {
+                print("Is updated")
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E6B06771B3AE1120B082BBEB'
+               BlueprintIdentifier = 'C256C1C9C22C9CF8B06D6742'
                BlueprintName = 'Genoise'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Genoise.framework'>
