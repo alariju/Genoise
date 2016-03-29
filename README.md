@@ -23,7 +23,7 @@ pod "Genoise"
 
 ## Swift Usage
 
-After running a **pod install** just import Genoise on your Swift class, and initialize Genoise:
+After running a **pod install** just import Genoise on your Swift class, and initialize Genoise and make the call:
 
 	import Genoise
     
@@ -40,7 +40,7 @@ After running a **pod install** just import Genoise on your Swift class, and ini
 
 ## Objective-C Usage
 
-You can just add the **Genoise.swift** file to your project, and create a Bridging Header. Then, do the following:
+You can just add the **Genoise.swift** file to your project, and create a Bridging Header. Then, do the same as Swift's:
 
 	#import "PROJECT_NAME-Swift.h"
     
