@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'Genoise_Example', :exclusive => true do
+  pod 'Genoise', :path => '../'
+end
+
+target 'Genoise_Tests', :exclusive => true do
+  pod 'Genoise', :path => '../'
+
+  pod 'Quick', '~> 0.8'
+  pod 'Nimble', '~> 3.0'
+end
