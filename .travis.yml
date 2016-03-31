@@ -1,6 +1,5 @@
-# references:
-# * http://www.objc.io/issue-6/travis-ci.html
-# * https://github.com/supermarin/xcpretty#usage
-
 language: objective-c
-script: xcodebuild -workspace Example/Genoise.xcworkspace -scheme Genoise -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+osx_image: xcode7.3
+xcode_workspace: Example/Genoise.xcworkspace
+xcode_scheme: Genoise-Example
+xcode_sdk: iphonesimulator8.0

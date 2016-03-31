@@ -38,9 +38,6 @@ class GenoiseSpec: QuickSpec {
                 Genoise.initializeWithApplicationId("12341234")
                 expect(Genoise.getStoreURL()) == "https://itunes.apple.com/US/app/id12341234?mt=8"
             }
-//            it("Can get an array of ints") {
-//                expect(Genoise.toIntArray(["3","4","7"])) == [3,4,7]
-//            }
         }
     }
 }
