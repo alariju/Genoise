@@ -1,5 +1,5 @@
 language: objective-c
 osx_image: xcode7.3
 xcode_workspace: Example/Genoise.xcworkspace
-xcode_scheme: Genoise-Example
+xcode_scheme: Genoise
 xcode_sdk: iphonesimulator8.0
