@@ -1,4 +1,5 @@
 # Genoise
+[![Build Status](https://travis-ci.org/alariju/Genoise.svg?branch=master)](https://travis-ci.org/alariju/Genoise)
 [![Version](https://img.shields.io/cocoapods/v/Genoise.svg?style=flat)](http://cocoapods.org/pods/Genoise)
 [![License](https://img.shields.io/cocoapods/l/Genoise.svg?style=flat)](http://cocoapods.org/pods/Genoise)
 [![Platform](https://img.shields.io/cocoapods/p/Genoise.svg?style=flat)](http://cocoapods.org/pods/Genoise)
