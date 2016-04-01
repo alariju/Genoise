@@ -8,4 +8,4 @@ branches:
   only:
     - master
 script:
-  - set -o pipefail && xcodebuild -workspace Genoise.xcworkspace -scheme Genoise -sdk iphonesimulator9.3 build test | xcpretty --color
+  - set -o pipefail && xcodebuild -workspace Example/Genoise.xcworkspace -scheme Genoise-Example -sdk iphonesimulator9.3 build test | xcpretty --color
